@@ -1,0 +1,27 @@
+{
+  "name": "hw11",
+  "version": "1.0.0",
+  "description": "Friend Finder App for HW11 UMN Coding Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "Julia Nissen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junissen/FangFinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/junissen/FangFinder/issues"
+  },
+  "homepage": "https://github.com/junissen/FangFinder#readme"
+}

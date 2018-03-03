@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FangFinder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel = "shortcut icon" href = "https://static1.squarespace.com/static/596014bd36e5d37e136fa33f/t/59681ac46a4963666f085794/1499994822083/BufferingTheVampireSlayerHALF3.jpg?format=1500w">
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center">Buffy Quiz</h1>
+      
+      <div class="text-center">
+        <a href="/"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-home"></span>Home</button></a>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-12">
+        <form>
+          <!-- User information input -->
+          <div class="userInfoForm">
+            <div class="form-group">
+              <label for="name">Name (Required) </label>
+              <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter your name">
+              <small id="nameHelp" class="form-text text-muted">Your name will be added to the friends database to connect with others!</small>
+            </div>
+            <div class="form-group">
+              <label for="photo">Link to Photo Image</label>
+              <input type="text" class="form-control" id="photo" aria-describedby="photoHelp" placeholder="Enter photo url">
+              <small id="nameHelp" class="form-text text-muted">Add a URL for your photo</small>
+            </div>
+            <!-- <div class="form-group">
+              <label for="photoUpload">Upload Photo</label>
+              <input type="file" class="form-control-file" id="photoUpload" aria-describedby="photoUploadHelp" >
+              <small id="photoUploadHelp" class="form-text text-muted">OR upload a photo!</small>
+            </div> -->
+          </div>
+
+          <hr>
+
+          <!-- SURVEY QUESTIONS -->
+
+          <div class="surveyQuestions">
+             <div class="form-group">
+              <h4>Question 1</h4>
+              <label for="question1">You love school and learning new things.</label>
+              <select class="form-control" id="question1">
+                <option value="" selected disabled>Select an option</option>
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (strongly agree)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <h4>Question 2</h4>
+              <label for="question2">You take command in tense situations.</label>
+              <select class="form-control" id="question2">
+                <option value="" selected disabled>Select an option</option>
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (strongly agree)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <h4>Question 3</h4>
+              <label for="question3">You are energized by being around people.</label>
+              <select class="form-control" id="question3">
+                <option value="" selected disabled>Select an option</option>
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (strongly agree)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <h4>Question 4</h4>
+              <label for="question4">You often feel like an outsider.</label>
+              <select class="form-control" id="question4">
+                <option value="" selected disabled>Select an option</option>
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (strongly agree)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <h4>Question 5</h4>
+              <label for="question5">You think things through and make plans before acting.</label>
+              <select class="form-control" id="question5">
+                <option value="" selected disabled>Select an option</option>
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (strongly agree)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <h4>Question 6</h4>
+              <label for="question6">You get overwhelmed in times of stress.</label>
+              <select class="form-control" id="question6">
+                <option value="" selected disabled>Select an option</option>
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (strongly agree)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <h4>Question 7</h4>
+              <label for="question7">You face your fears head on.</label>
+              <select class="form-control" id="question7">
+                <option value="" selected disabled>Select an option</option>
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (strongly agree)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <h4>Question 8</h4>
+              <label for="question8">You conceal your feelings when you're afraid of getting hurt.</label>
+              <select class="form-control" id="question8">
+                <option value="" selected disabled>Select an option</option>
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (strongly agree)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <h4>Question 9</h4>
+              <label for="question9">Rules are a suggestion, and you break them easily.</label>
+              <select class="form-control" id="question9">
+                <option value="" selected disabled>Select an option</option>
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (strongly agree)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <h4>Question 10</h4>
+              <label for="question10">You have a past you're not always proud of.</label>
+              <select class="form-control" id="question10">
+                <option value="" selected disabled>Select an option</option>
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (strongly agree)</option>
+              </select>
+            </div>
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Your Buffy Character</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary submit">Submit</button>
+
+        </form>
+      </div>
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Friends Link</a> | <a href="https://github.com/junissen/FriendFinder" target="_blank">GitHub Repo</a></p>
+      </div>
+    </footer>
+  
+  </div>
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <script>
+
+    $.ajaxSettings.traditional = true;
+
+    $('.submit').on("click", function(event) {
+        var scoreArray = [];
+
+        for (var i = 1; i < 11; i ++) {
+          var question = $('#question' + [i]);
+
+          questionValue = parseInt(question.val());
+
+          console.log(questionValue)
+
+          if (questionValue === NaN) {
+            console.log("blah")
+            alert("You did not enter a valid option for Question " + [i]);
+            break;
+          }
+
+          else {
+            scoreArray.push(questionValue)
+          }
+        }
+
+        var newUser = {
+          name: $('#name').val().trim(),
+          photo: $('#photo').val().trim(),
+          scores: scoreArray
+        }
+
+        // console.log(newUser);
+
+        var currentURL = window.location.origin;
+
+        $.post("/api/friends", newUser, 
+          function(data) {
+
+            $('.modal-body').empty();
+
+            var header = $('<h1>');
+            header.html(data.name);
+
+            var image = $('<img>');
+            image.attr("src", data.photo);
+            image.attr("align", "middle");
+
+            var bio = $('<p>');
+            bio.html(data.bio);
+
+            $('.modal-body').append(header);
+            $('.modal-body').append(image);
+            $('.modal-body').append(bio);
+
+            if (data.characterArray.length > 1) {
+              var text = $('<h3>');
+              text.html("Other users that also matched with " + data.name);
+              $('.modal-body').append(text);
+
+              for (var i = 0; i < data.characterArray.length; i ++) {
+
+                if (data.characterArray[i].name != newUser.name) {
+                  var user = $('<p>');
+                  user.html(data.characterArray[i].name);
+                  var userPhoto = $('<img>');
+                  userPhoto.attr("src", data.characterArray[i].photo);
+                  $('.modal-body').append(user);
+                  $('.modal-body').append(userPhoto);
+                }
+              }
+        
+            }
+
+
+            $('#myModal').modal();
+        });
+
+
+      $('#name').val("");
+      $('#photo').val("");
+
+      for (var i = 1; i < 11; i ++) {
+          var question = $('#question' + [i]);
+          question.val("");
+      }
+
+      return false;
+
+    })
+
+
+  </script>
+
+ </body>
+
+</html>
