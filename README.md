@@ -18,3 +18,5 @@ Copy the url provided in your command line, and paste it into an open browser wi
 ![Alt text](app/images/screenshotSite.png?raw=true "Screenshot of home page")
 
 From there, simply click on "Take Survey". This survey consists of 10 questions to gauge your personality, and you are prompted to provide your name and a url of a photo to better connect you with others. Once you submit your survey, the app will match you with the Buffy character that best matches your personality, as well as provide you with the name and photo of other users that also matched that character! Find a friend and connect with your Buffy brethren!  
+
+If you don't want to download the repo, simply access the website via the deployed Heroku app at https://dry-wildwood-25594.herokuapp.com/
