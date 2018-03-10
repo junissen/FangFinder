@@ -30,7 +30,7 @@ var friendsArray = [
 	{
 		name: "Xander Harris",
 		bio: "You are funny and lovable. You're loyal to those you love, and behind the bluster you can be sweet and sensitive. You aren't afraid to face your fears, especially if a friend's in trouble",
-		photo: "https://pmctvline2.files.wordpress.com/2017/03/nicholas-brendon.jpg?w=616",
+		photo: "https://vignette.wikia.nocookie.net/buffymegaxover/images/7/75/Xander7.jpg/revision/latest?cb=20140115032754",
 		scoresArray: [1,4,4,2,2,2,4,2,4,3],
 		characterArray: []
 	},
